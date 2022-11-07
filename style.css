@@ -1,0 +1,45 @@
+/* Center the text of the h1 and the p tag with the id "designed-by" in the middle of the page
+
+Give a color to all text (don't worry - the rules of specificity will keep the text inside the boxes white)
+
+Choose a font family to apply to the entire page */
+body {
+  /* your styles here */
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+#designed-by {
+  /* your styles here */
+  text-align: center;
+}
+
+.style1 {
+  background-color: #9b9a9a;
+}
+
+.style2 {
+  background-color: #9b9a9a;
+}
+
+.style3 {
+  background-color: #9b9a9a;
+}
+
+.style4 {
+  background-color: #9b9a9a;
+}
+
+.style5 {
+  background-color: #9b9a9a;
+}
+
+.style6 {
+  background-color: #9b9a9a;
+}
+
+/* SETTING THE COLOR OF THE BOX TEXT */
+.tiles .box-wrapper > a {
+  color: white;
+}
